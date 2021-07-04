@@ -7,7 +7,7 @@ const messageInput = document.getElementById('messageInp');
 const messageContainer = document.querySelector('.container');
 
 // storing audio to a variable
-let audio = new Audio('sound.mp3');
+let audio = new Audio('assets/sound.mp3');
 
 // function which generates a message container
 const append = (message, position) =>{
